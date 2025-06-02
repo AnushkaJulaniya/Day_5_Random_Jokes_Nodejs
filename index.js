@@ -7,6 +7,9 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT;
 
+app.get("/", (req, res) => {
+    res.send("Random Jokes API is running!");
+});
 
 app.get("/api/v1/jokes/random", async (req,res) =>{
     try{
