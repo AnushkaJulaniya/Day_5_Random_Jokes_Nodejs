@@ -1,0 +1,6 @@
+steps
+1.npm init -y
+2.npm install express axios dotenv
+3.import this all in index.js in cjs form
+4. in env file write API_KEY , PORT = 10000, node_modules
+
